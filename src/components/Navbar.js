@@ -1,0 +1,21 @@
+import React from 'react'
+import './Navbar.css'
+import logo from '/home/vishnu/Desktop/portfolio/porttfolio/src/assets/assets/logo.png'
+const Navbar = () => {
+  return (
+ <nav className='navbar' >
+  <img src={logo} alt="logo"  className='logo'/>
+  <div className="desktopMenu">
+
+  </div>
+<button className="desktopMenuBtn">
+  <img src="" alt="" className="desktopMenuImg" />
+   Contact Me
+</button>
+
+ </nav>
+
+  )
+}
+
+export default Navbar
