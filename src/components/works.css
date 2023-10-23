@@ -18,6 +18,7 @@ padding: 0 1rem;
 .workDesc{
   font-weight: 300;
   font-size: 1rem;
+  max-width: 45rem;
 }
 .workImgs{
   display:flex;
@@ -42,4 +43,11 @@ border-radius: 2rem;
 font-size: 1rem;
 
 margin: 3rem 0rem;
+}
+
+@media screen and (max-width:592px) {
+.workImg{
+ height: 48vw;
+}
+
 }
