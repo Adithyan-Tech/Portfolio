@@ -10,14 +10,14 @@ import portfolio6 from '../assets/assets/portfolio-6.png'
 const Works = () => {
   return (
     <section id="works">
-      <h2 className="workstitle">My Portfolio</h2>
+      <h2 className="worksTitle">My Portfolio</h2>
       <span className="workDesc">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis
         cupiditate, blanditiis labore ratione, veritatis mollitia qui omnis
         dolore error perspiciatis doloribus cum magnam deserunt provident nihil
         iste, consequuntur perferendis?
       </span>
-      <div className="worksimg">
+      <div className="worksImgs">
         <img src={portfolio1} alt="portfolio1" className="workImg" />
         <img src={portfolio2} alt="portfolio2" className="workImg" />
         <img src={portfolio3} alt="portfolio3" className="workImg" />
