@@ -7,7 +7,7 @@ import facebook from '../assets/assets/facebook.png';
 const Clint = () => {
   return (
     <div>
-      <section className="contactpage">
+      <section id="contactpage">
         <div id="clints">
           <h1 className="contactPageTitle">MY CLINTS</h1>
           <p className="clintDesc">
@@ -16,7 +16,7 @@ const Clint = () => {
             soluta alias nostrum! Veniam doloremque ea molestiae laborum quia
             consectetur vitae perferendis est.
           </p>
-          <div className="clintimgs">
+          <div className="clintImgs">
             <img src={walmart} alt="walmart" className="clintImg" />
             <img src={Adobe} alt="Adobe" className="clintImg" />
             <img src={microsoft} alt="microsoft" className="clintImg" />
