@@ -35,3 +35,11 @@ max-width: 65rem;
   margin: 0.5rem;
  
 }
+.worksButton{
+padding: 0.5rem 2.5rem;
+background: white;
+border-radius: 2rem;
+font-size: 1rem;
+
+margin: 3rem 0rem;
+}

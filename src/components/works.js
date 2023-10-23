@@ -26,6 +26,7 @@ const Works = () => {
         <img src={portfolio6} alt="portfolio6" className="workImg" />
 
       </div>
+      <button className="worksButton">See more...</button>
     </section>
   );
 };
