@@ -34,7 +34,7 @@ const Clint = () => {
             <input type="text" className="name" placeholder="enter name"/>
             <input type="text" className="email" placeholder="enter email" />
             <textarea  className='msg'name="message" rows='5'placeholder="your message"></textarea>
-            <button className="submit" type="submit" value='send'></button>
+            <button className="submit" type="submit" value='send'>submit</button>
             <div className="links">
              <img src={facbookicon} alt='facbookicon' className="link"></img>
              <img src={twittericon} alt='twittericon' className="link"></img>
