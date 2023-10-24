@@ -8,10 +8,12 @@ const Navbar = () => {
  <nav className='navbar' >
   <img src={logo} alt="logo"  className='logo'/>
   <div className="desktopMenu">
- <Link className="desktopMenuListIteams">Home</Link>
- <Link className="desktopMenuListIteams">Clint</Link>
- <Link className="desktopMenuListIteams">About</Link>
- <Link className="desktopMenuListIteams">portfolio</Link>
+ <Link activeClass='active' to='intro'className="desktopMenuListIteams">Home</Link>
+ <Link activeClass='active' to='works'className="desktopMenuListIteams">portfolio</Link>
+
+ <Link activeClass='active' to='Skills'className="desktopMenuListIteams">About</Link>
+ <Link activeClass='active' to='clints'className="desktopMenuListIteams">Clint</Link>
+
 
   </div>
 <button className="desktopMenuBtn">
